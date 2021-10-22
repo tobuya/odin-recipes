@@ -2,3 +2,4 @@ The odin-recipes put all the Command Line,Git and Github, and HTML knowledge I h
 Here I am going to demonstrate my skills in using the command line to create, edit, and navigate through files and folders.
 I am then going to create a repository in my GitHub and then clone the repository onto my local machine.
 Finally, I am going to demostrate HTML skills learned to build a basic recipe website and push my work to github.
+I proceed by creating a simple style.css file and link it to my index.html
