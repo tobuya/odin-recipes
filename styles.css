@@ -28,7 +28,7 @@ p{
     border: 5px solid white;
     width: 400px;
     height: 400px;
-    animation: images 20s infinite linear;
+    animation: images 20s linear infinite alternate;
 }
 @keyframes images {
     0% {background-image: url("recipes/photos/one.jpg"); background-size: cover;}
