@@ -3,18 +3,52 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
+
 body{
     background-color: darkviolet;
 }
+
 h1{
     font-weight: bolder;
     text-align: center;
+    font-size: 30px;
 }
+
 h2{
     font-weight: bold;
     text-align: center;
 }
+
 p{
     font-size: small;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#images {
+    border: 5px solid white;
+    width: 400px;
+    height: 400px;
+    animation: images 20s infinite linear;
+}
+@keyframes images {
+    0% {background-image: url("recipes/photos/one.jpg"); background-size: cover;}
+    25% {background-image: url("recipes/photos/two.jpg"); background-size: cover;}
+    50% {background-image: url("recipes/photos/three.jpg");background-size: cover;}
+    75% {background-image: url("recipes/photos/four.jpg"); background-size: cover;}
+    100% {background-image: url("recipes/photos/five.jpg"); background-size: cover;}
+}
+
+#container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.recipe {
+    align-self: center;
+}
+
+ul > li:hover {
+    color: white;
 }
